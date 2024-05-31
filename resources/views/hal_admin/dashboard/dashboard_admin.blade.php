@@ -16,7 +16,11 @@
                                 <a class="small text-white stretched-link" href="#">View Details</a>
                                 <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                             </div>
+<<<<<<< HEAD
                         </div>  
+=======
+                        </div> 
+>>>>>>> 0c78da77cffe60ba95f498549dcb46b2f94e8385
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="card bg-warning text-white mb-4">

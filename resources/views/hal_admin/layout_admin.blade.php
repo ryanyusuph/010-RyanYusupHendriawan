@@ -8,17 +8,26 @@
         <meta name="author" content="" />
         <title> Hal Admin </title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+<<<<<<< HEAD
         {{-- <link href="css/styles.css" rel="stylesheet" />  --}}
         <link href="{{ asset('../css/styles.css') }}" rel="stylesheet"> 
         <link href="{{ asset('../css/bootstrap.min.css') }}" rel="stylesheet"> 
         
+=======
+        <link href="css/styles.css" rel="stylesheet" /> 
+        <link href="{{ asset('../css/bootstrap.min.css') }}" rel="stylesheet"> 
+>>>>>>> 0c78da77cffe60ba95f498549dcb46b2f94e8385
          
         {{-- kasih css flatty  --}}
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
  
+<<<<<<< HEAD
         @include('hal_admin.navbar_admin')
+=======
+        @include('hal_user.navbar_user')
+>>>>>>> 0c78da77cffe60ba95f498549dcb46b2f94e8385
  
         <div id="layoutSidenav">
  
@@ -34,6 +43,7 @@
         @include('hal_user.footer')
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<<<<<<< HEAD
         <script src="{{ asset('../js/scripts.js') }}"></script> 
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
         {{-- <script src="js/datatables-simple-demo.js"></script>  --}}
@@ -41,5 +51,10 @@
         <script>
             var datatables1 = new Datatable ;
         </script>
+=======
+        <script src="js/scripts.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
+>>>>>>> 0c78da77cffe60ba95f498549dcb46b2f94e8385
     </body>
 </html>
