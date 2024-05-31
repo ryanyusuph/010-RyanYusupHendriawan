@@ -52,10 +52,6 @@
             </div> 
         </div>
     </div>
-<<<<<<< HEAD
 </div>
 <div class="container pt-4 pb-4"></div>
-=======
-<div class="container pt-4 pb-4">
->>>>>>> 0c78da77cffe60ba95f498549dcb46b2f94e8385
 @endsection

@@ -1,11 +1,7 @@
 
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-primary">
     <!-- Navbar Brand-->
-<<<<<<< HEAD
         <a class="navbar-brand ps-3 text-center" href="/halUser"> Sistem </a> 
-=======
-        <a class="navbar-brand ps-3 text-center" href="index.html"> Sistem </a>
->>>>>>> 0c78da77cffe60ba95f498549dcb46b2f94e8385
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
         <!-- Navbar Search--> 
@@ -19,15 +15,9 @@
                 <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
  
-<<<<<<< HEAD
                     <li><a class="dropdown-item" href="/login">Logout</a></li>
                 </ul>
             </li> 
-=======
-                    <li><a class="dropdown-item" href="#!">Logout</a></li>
-                </ul>
-            </li>
->>>>>>> 0c78da77cffe60ba95f498549dcb46b2f94e8385
         </ul>
     </nav>
 

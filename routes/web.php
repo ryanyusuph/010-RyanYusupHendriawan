@@ -58,21 +58,9 @@ Route::name('halaman_admin.')->group(function(){
         Route::post('/pkl/{id}',"destroy")->name("destroy"); 
     }) ;  
 
-
-    Route::controller(PersetujuanController::class)->name('Persetujuan.')->group(function(){  
-        Route::get('/halPersetujuan', "index")->name("index");
-        Route::get('/halTambahPersetujuan', "create")->name("create"); 
-        Route::get('/{id}/halUbahPersetujuan', "edit")->name("edit"); 
-        Route::post('/persetujuan/',"store")->name("store");
-
-        Route::put('/persetujuan/{id}',"update")->name("update"); 
-        Route::post('/persetujuan/{id}',"destroy")->name("destroy"); 
-
-        // Route::get('/PersetujuanPKL', function(){
-        //     return view('hal_Admin.PKL.persetujuan_PKL');
-        // }) ;  
-    }) ;
-
+        Route::get('/PersetujuanPKL', function(){
+            return view('hal_Admin.PKL.persetujuan_PKL');
+        }) ;  
 
     Route::controller(SiswaController::class)->name('siswa.')->group(function(){ 
         Route::get('/halAdminSiswa', "index")->name("index");
